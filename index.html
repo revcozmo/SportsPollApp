@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sports Poll App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="scripts/style.css">
+</head>
+
+<body>
+    <header>Sports Poll</header>
+
+    <div id="container">
+
+        <div class="event-container">
+            <ul> </ul>
+        </div>
+
+        <div>
+            <button class=poll-buttons id="pollHomeButton">Host Team</button>
+            <button class=poll-buttons id="pollDrawButton">Draw</button>
+            <button class=poll-buttons id="pollAwayButton">Guest Team</button>
+        </div>
+
+        <div id=poll-container>
+            <div class="circle">
+                <p id="showHomePolls"></p>
+            </div>
+            <div class="circle">
+                <p id="showDrawPolls"></p>
+            </div>
+            <div class="circle">
+                <p id="showAwayPolls"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/repository.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
